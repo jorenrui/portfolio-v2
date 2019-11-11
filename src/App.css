@@ -1,22 +1,68 @@
-.App {
-  text-align: center;
+/* Hero Section */
+.hero-section {
+	height: 100vh;
+	width: 100vw;
+	padding: 25px 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.hero-section .header {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.hero-section .nav {
+	text-align: right;
 }
 
-.App-link {
-  color: #09d3ac;
+.hero-section ul {
+	list-style-type: none;
+}
+
+.hero-section ul li {
+	padding: 0 10px;
+	display: inline-block;
+}
+
+.hero-section .content {
+	height: 866px;
+	width: 100%;
+	color: #fff;
+	padding: 100px;
+	position: relative;
+	background-color: #131313;
+}
+
+.hero-section .display-1 {
+	margin-left: -50px;
+}
+
+.hero-section .content .description {
+	width: 400px;
+}
+
+.hero-section .bg-logo {
+	width: 500px;
+	height: auto;
+	position: absolute;
+	bottom: -38px;
+	right: 25px;
+}
+
+.hero-section .social-media-icons {
+	margin: 16px;
+	width: 100%;
+	text-align: right;
+}
+
+.hero-section .social-media-icons a {
+	margin: 5px;
+}
+
+.hero-section i {
+	color: #131313;
 }
