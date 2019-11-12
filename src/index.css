@@ -12,10 +12,13 @@
 
 h1,
 h2,
-h3,
+h3 {
+	margin: 25px 0;
+}
+
 h4,
 h5 {
-	margin-bottom: 25px;
+	margin: 10px 0;
 }
 
 h1 {
@@ -116,14 +119,26 @@ a.link:active {
 	padding: 10px;
 }
 
-.highlight,
-.highlight-hover:hover {
-	color: #f9f871;
+a.btn {
+	display: inline-block;
+	text-decoration: none;
 }
 
 .highlight,
 .highlight-hover:hover {
 	color: #f9f871;
+}
+
+.text-muted {
+	opacity: 0.2;
+}
+
+.mt-0 {
+	margin-top: 0;
+}
+
+.mt-1 {
+	margin-top: 5%;
 }
 
 /* Extra Small devices (landscape phones, 576 and down) */
