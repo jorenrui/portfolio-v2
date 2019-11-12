@@ -33,32 +33,56 @@ function Header() {
 			<nav id="navMobile">
 				<ul className="nav-list">
 					<li>
-						<a href="#home" className="mobile-link">
+						<a
+							href="#home"
+							className="mobile-link"
+							onClick={handleClick}
+						>
 							Home
 						</a>
 					</li>
 					<li>
-						<a href="#work" className="mobile-link">
+						<a
+							href="#work"
+							className="mobile-link"
+							onClick={handleClick}
+						>
 							Work
 						</a>
 					</li>
 					<li>
-						<a href="#about" className="mobile-link">
+						<a
+							href="#about"
+							className="mobile-link"
+							onClick={handleClick}
+						>
 							About
 						</a>
 					</li>
 					<li>
-						<a href="#blog" className="mobile-link">
+						<a
+							href="#blog"
+							className="mobile-link"
+							onClick={handleClick}
+						>
 							Blog
 						</a>
 					</li>
 					<li>
-						<a href="#design" className="mobile-link">
+						<a
+							href="#design"
+							className="mobile-link"
+							onClick={handleClick}
+						>
 							Design
 						</a>
 					</li>
 					<li>
-						<a href="#contact" className="mobile-link">
+						<a
+							href="#contact"
+							className="mobile-link"
+							onClick={handleClick}
+						>
 							Contact
 						</a>
 					</li>
