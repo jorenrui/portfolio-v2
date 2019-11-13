@@ -2,6 +2,7 @@
  * TABLE OF CONTENTS
  * - Hero Section
  * - Work Section
+ * - About Section
  *============================ */
 
 /*============================
@@ -10,7 +11,7 @@
 
 .hero-section {
 	height: 100vh;
-	width: 100vw;
+	width: 100%;
 	padding: 25px 200px;
 	display: flex;
 	flex-direction: column;
@@ -164,14 +165,12 @@
 	color: #4b555c;
 }
 
-/* Large devices (desktops, 1200 and down) */
 @media (max-width: 1200px) {
 	.hero-section .content {
 		padding-left: 100px;
 	}
 }
 
-/* Medium devices (tablets, 992 and down) */
 @media (max-width: 992px) {
 	.hero-section {
 		padding: 0;
@@ -204,11 +203,6 @@
 	}
 }
 
-/* Small devices (landscape phones, 768 and down) */
-@media (max-width: 768px) {
-}
-
-/* Extra Small devices (landscape phones, 576 and down) */
 @media (max-width: 576px) {
 	.hero-section .mobile-nav {
 		text-align: right;
@@ -355,5 +349,153 @@
 	.work-item .info,
 	.work-item .image {
 		padding: 25px;
+	}
+}
+
+/*============================
+ * About Section 
+ *============================ */
+
+/* About Me */
+
+.about-me {
+	padding: 100px;
+	color: #fff;
+	background: #131313;
+}
+
+.highlight-primary {
+	display: inline-block;
+	color: #131313;
+	background: #fff;
+}
+
+.about-me .title {
+	text-align: right;
+}
+
+.about-me .name .display-2,
+.about-me .title .display-2 {
+	margin: 10px 0;
+}
+
+.about-me .description {
+	margin: 75px 150px;
+}
+
+.about-me .description p {
+	margin: 25px;
+}
+
+@media (max-width: 992px) {
+	.about-me .description {
+		margin: 75px 50px;
+	}
+}
+
+@media (max-width: 768px) {
+	.about-me {
+		padding: 50px;
+	}
+}
+
+@media (max-width: 576px) {
+	.about-me .description {
+		margin: 50px 0;
+	}
+
+	.about-me .name .display-2,
+	.about-me .title .display-2 {
+		font-size: 50px;
+	}
+
+	.about-me {
+		padding: 25px;
+	}
+}
+
+/* Skills */
+
+.skills {
+	width: 800px;
+	margin: 100px auto;
+}
+
+.skills .description p {
+	margin: 25px 0;
+}
+
+.skills-list {
+	padding: 0 50px;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
+
+.skills-list ul {
+	list-style-type: none;
+}
+
+.skills-list li {
+	margin: 15px 0;
+}
+
+.skills-list li span {
+	padding: 5px 10px;
+}
+
+.skills-list li:nth-child(even) span {
+	color: #fff;
+	background: #131313;
+}
+
+.skills-list .core-skills {
+	display: grid;
+	grid-column-gap: 50px;
+	grid-template-columns: 1fr 1fr;
+}
+
+.skills-list .core-skills .list-title {
+	grid-column: 1 / -1;
+}
+
+.skills-list .other-skills .list-title {
+	margin-bottom: 40px;
+}
+
+@media (max-width: 992px) {
+	.skills {
+		width: 700px;
+		margin: 100px auto;
+	}
+}
+
+@media (max-width: 768px) {
+	.skills {
+		max-width: 600px;
+		width: auto;
+		margin: 100px 50px;
+	}
+
+	.skills-list .core-skills,
+	.skills-list .other-skills {
+		margin-left: 50px;
+		margin-bottom: 40px;
+		grid-column: 1 / -1;
+	}
+}
+
+@media (max-width: 576px) {
+	.skills-list {
+		padding: 0;
+	}
+
+	.skills-list .core-skills {
+		grid-column-gap: 0;
+		grid-template-columns: 3fr 1fr;
+	}
+
+	.skills-list .core-skills,
+	.skills-list .other-skills {
+		margin-left: 0;
 	}
 }

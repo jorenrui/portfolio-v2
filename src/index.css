@@ -6,7 +6,17 @@
 	box-sizing: border-box;
 }
 
-* {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li,
+div,
+button {
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -78,6 +88,14 @@ p.text-sm {
 	font-size: 13px;
 }
 
+a.text-link {
+	color: #131313;
+	font-weight: bold;
+	margin-left: 5px;
+	text-decoration: none;
+	border-bottom: 3px solid #131313;
+}
+
 a.link {
 	color: #131313;
 	text-decoration: none;
@@ -129,8 +147,17 @@ a.btn {
 	color: #f9f871;
 }
 
+.highlight-hover-sm:hover,
+.highlight-hover-white:hover {
+	font-weight: bold;
+}
+
 .text-muted {
 	opacity: 0.2;
+}
+
+.text-muted-white {
+	opacity: 0.6;
 }
 
 .mt-0 {
