@@ -541,3 +541,15 @@
 .blog-section .article-item a {
 	margin-left: 0;
 }
+
+@media (max-width: 992px) {
+	.blog-section {
+		padding: 150px 120px;
+	}
+}
+
+@media (max-width: 576px) {
+	.blog-section {
+		padding: 150px 50px;
+	}
+}
