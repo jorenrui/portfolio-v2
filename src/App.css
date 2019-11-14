@@ -4,6 +4,7 @@
  * - Work Section
  * - About Section
  * - Blog Section
+ * - Design Section
  *============================ */
 
 /*============================
@@ -551,5 +552,52 @@
 @media (max-width: 576px) {
 	.blog-section {
 		padding: 150px 50px;
+	}
+}
+
+/*============================
+ * Design Section 
+ *============================ */
+
+.design-section {
+	padding-top: 100px;
+}
+
+.design-section .title {
+	width: 800px;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+
+.design-section .design-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.design-section .design-grid img {
+	width: 100%;
+}
+
+@media (max-width: 992px) {
+	.design-section .title {
+		width: 600px;
+	}
+}
+
+@media (max-width: 758px) {
+	.design-section .title {
+		width: 500px;
+	}
+}
+
+@media (max-width: 576px) {
+	.design-section .title {
+		width: auto;
+		padding: 0 50px;
+	}
+
+	.design-section .design-grid {
+		display: grid;
+		grid-template-columns: 1fr;
 	}
 }
