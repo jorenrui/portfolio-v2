@@ -578,6 +578,11 @@
 	width: 100%;
 }
 
+.design-section .image-link {
+	margin: 0;
+	margin-top: -5px;
+}
+
 @media (max-width: 992px) {
 	.design-section .title {
 		width: 600px;
