@@ -25,8 +25,15 @@ function AboutMe() {
 					got hooked in web development. Starting in November 2017, I
 					started to get serious in learning the tech, starting with
 					receiving the{' '}
-					<span className="highlight-hover">freeCodeCamp</span> Front
-					End Development Certificate.
+					<span className="highlight-hover"></span> 
+					<a
+						target="_blank"
+						href="https://www.freecodecamp.org/certification/merakireal/legacy-front-end"
+						rel="noopener noreferrer"
+						className="text-link-primary"
+					>
+						freeCodeCamp Front End Development Certificate
+					</a>.
 				</p>
 				<p>
 					Now I’m one semester away from graduating in 2020 as an{' '}

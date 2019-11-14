@@ -96,6 +96,20 @@ a.text-link {
 	border-bottom: 3px solid #131313;
 }
 
+a.text-link-primary {
+	color: #fff;
+	margin-left: 5px;
+	text-decoration: none;
+	border-bottom: 2px solid #fff;
+}
+
+a.text-link-primary:hover,
+a.text-link-primary:active,
+a.text-link-primary:focus {
+	color: #f9f871;
+	border-bottom: 2px solid #f9f871;
+}
+
 a.link {
 	color: #131313;
 	text-decoration: none;
