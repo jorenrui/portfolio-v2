@@ -3,6 +3,7 @@
  * - Hero Section
  * - Work Section
  * - About Section
+ * - Blog Section
  *============================ */
 
 /*============================
@@ -498,4 +499,45 @@
 	.skills-list .other-skills {
 		margin-left: 0;
 	}
+}
+
+/*============================
+ * Blog Section 
+ *============================ */
+
+.blog-section {
+	padding: 150px 20vw;
+	color: #fff;
+	background: #131313;
+}
+
+.blog-section .title {
+	margin-bottom: 50px;
+}
+
+.blog-section .article-item {
+	margin-bottom: 50px;
+}
+.blog-section .article-item h3 {
+	margin: 0;
+}
+
+.blog-section .article-item h3 a {
+	color: #fff;
+	font-size: 26px;
+	text-decoration: none;
+}
+
+.blog-section .article-item h3 a:hover,
+.blog-section .article-item h3 a:focus,
+.blog-section .article-item h3 a:active {
+	color: #f9f871;
+}
+
+.blog-section .article-item p:not(.text-muted) {
+	margin: 15px 0;
+}
+
+.blog-section .article-item a {
+	margin-left: 0;
 }
