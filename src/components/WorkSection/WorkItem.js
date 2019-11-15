@@ -25,7 +25,7 @@ function WorkItem(props) {
 				</a>
 				<a
 					target="_blank"
-					href={props.link}
+					href={props.repo}
 					rel="noopener noreferrer"
 					className="btn btn-md"
 				>
