@@ -9,7 +9,9 @@ function CTA() {
 					a <span className="highlight-hover">web developer</span> who
 					has a thing for simplicity, knowledge, and problem solving.
 				</p>
-				<button className="btn btn-lg">contact me</button>
+				<a href="#contact" className="btn btn-lg">
+					contact me
+				</a>
 			</div>
 
 			<div className="bg">
