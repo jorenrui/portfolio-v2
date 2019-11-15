@@ -15,8 +15,21 @@ function WorkItem(props) {
 				<p>{props.description}</p>
 				<h4 className="mt-1">Technologies Used</h4>
 				<p>{props.techs}</p>
-				<a href="#" className="btn btn-md">
-					READ MORE
+				<a
+					target="_blank"
+					href={props.link}
+					rel="noopener noreferrer"
+					className="btn btn-md btn-primary"
+				>
+					VIEW DEMO
+				</a>
+				<a
+					target="_blank"
+					href={props.link}
+					rel="noopener noreferrer"
+					className="btn btn-md"
+				>
+					VIEW REPO
 				</a>
 			</div>
 		</div>

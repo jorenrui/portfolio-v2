@@ -298,6 +298,10 @@
 	order: 2;
 }
 
+.work-item .btn {
+	margin-right: 15px;
+}
+
 @media (max-width: 992px) {
 	.work-item {
 		display: block;
@@ -338,6 +342,11 @@
 	.work-item:nth-child(even) .btn:active {
 		color: #fff;
 		border: 3px solid #131313;
+		background: #131313;
+	}
+
+	.work-item:nth-child(even) .btn-primary {
+		color: #fff;
 		background: #131313;
 	}
 }

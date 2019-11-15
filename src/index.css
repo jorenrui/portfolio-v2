@@ -147,6 +147,11 @@ a.link:active {
 	font-size: 16px;
 }
 
+.btn-primary {
+	color: #131313;
+	background: #fff;
+}
+
 .btn-sm {
 	padding: 10px;
 }
