@@ -1,6 +1,6 @@
-import React from "react";
-import ContactForm from "./ContactSection/ContactForm";
-import BriefInfo from "./ContactSection/BriefInfo";
+import React from 'react';
+import ContactForm from './ContactSection/ContactForm';
+import BriefInfo from './ContactSection/BriefInfo';
 
 function ContactSection() {
 	return (

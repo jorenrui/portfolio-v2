@@ -13,7 +13,7 @@ const worksData = [
     title: 'React Portfolio',
     description:
       'Ut sunt sunt commodo consectetur incididunt deserunt mollit anim velit laborum sit commodo labore. Magna magna incididunt commodo ea elit elit elit Lorem veniam laboris dolore deserunt aliqua.',
-    techs: 'Flexbox, CSS Grid, React',
+    techs: 'React',
     link: 'https://jorenrui.com',
     image: 'react-portfolio.png'
   }

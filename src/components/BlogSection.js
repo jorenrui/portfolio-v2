@@ -1,6 +1,6 @@
-import React from "react";
-import Article from "./BlogSection/Article";
-import articlesData from "./../data/articlesData";
+import React from 'react';
+import Article from './BlogSection/Article';
+import articlesData from './../data/articlesData';
 
 function BlogSection() {
 	const articleItems = articlesData.map(item => (

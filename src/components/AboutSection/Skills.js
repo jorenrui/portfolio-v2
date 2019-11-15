@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 function Skills() {
 	return (
@@ -9,9 +9,9 @@ function Skills() {
 			</div>
 			<div className="description">
 				<p>
-					I’m an{" "}
-					<span className="highlight-hover-white">IT student</span>{" "}
-					doing web development since{" "}
+					I’m an{' '}
+					<span className="highlight-hover-white">IT student</span>{' '}
+					doing web development since{' '}
 					<span className="highlight-hover-white">Nov 2017</span>.
 					Having a thing for knowledge, I make it a habit to read all
 					sorts of books every day. Also, I learn from the community,
@@ -24,7 +24,7 @@ function Skills() {
 					>
 						Twitter
 					</a>
-					. I’m currently learning{" "}
+					. I’m currently learning{' '}
 					<span className="highlight-hover-white">ReactJS</span>.
 				</p>
 				<p>
