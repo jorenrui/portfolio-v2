@@ -1,6 +1,16 @@
 import React from 'react';
 
 function WorkItem(props) {
+	let auth_credentials = null;
+	if (props.auth != '') {
+		auth_credentials = (
+			<div>
+				<h4 className="mt-1">Login Credentials (For Demo)</h4>
+				<p>{props.auth}</p>
+			</div>
+		);
+	}
+
 	return (
 		<div className="work-item">
 			<div className="image">
@@ -13,6 +23,7 @@ function WorkItem(props) {
 				<p className="text-muted">RECENT WORK</p>
 				<h2 className="mt-0 highlight-hover">{props.title}</h2>
 				<p>{props.description}</p>
+				{auth_credentials}
 				<h4 className="mt-1">Technologies Used</h4>
 				<p>{props.techs}</p>
 				<a
