@@ -5,10 +5,11 @@
  * - About Section
  * - Blog Section
  * - Design Section
+ * - Contact Section
  *============================ */
 
 /*============================
- * Hero Section 
+ * Hero Section
  *============================ */
 
 .hero-section {
@@ -262,7 +263,7 @@
 }
 
 /*============================
- * Work Section 
+ * Work Section
  *============================ */
 
 .work-item {
@@ -355,7 +356,7 @@
 }
 
 /*============================
- * About Section 
+ * About Section
  *============================ */
 
 /* About Me */
@@ -503,7 +504,7 @@
 }
 
 /*============================
- * Blog Section 
+ * Blog Section
  *============================ */
 
 .blog-section {
@@ -556,7 +557,7 @@
 }
 
 /*============================
- * Design Section 
+ * Design Section
  *============================ */
 
 .design-section {
@@ -589,7 +590,7 @@
 	}
 }
 
-@media (max-width: 758px) {
+@media (max-width: 768px) {
 	.design-section .title {
 		width: 500px;
 	}
@@ -604,5 +605,123 @@
 	.design-section .design-grid {
 		display: grid;
 		grid-template-columns: 1fr;
+	}
+}
+
+/*============================
+ * Contact Section
+ *============================ */
+
+.contact-section {
+	margin-top: -10px;
+	padding: 100px;
+	color: #fff;
+	background: #131313;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 50px;
+}
+
+.contact-form .form-group {
+	margin-top: 50px;
+	display: grid;
+	grid-template-columns: 120px auto;
+}
+
+.contact-form label {
+	padding-top: 15px;
+	padding-left: 25px;
+	border-left: 5px solid #fff;
+}
+
+.contact-form input,
+.contact-form textarea {
+	padding: 15px;
+	color: #fff;
+	background: none;
+	border: 1px solid #fff;
+	border-radius: 3px;
+}
+
+.contact-form button[type='submit'] {
+	margin-top: 50px;
+}
+
+.brief-info {
+	text-align: center;
+}
+
+.brief-info .logo {
+	width: 180px;
+	border-radius: 50%;
+}
+
+.brief-info h3.name {
+	margin-bottom: 15px;
+}
+
+.brief-info p:not(.title) {
+	margin: 25px 0;
+}
+
+.brief-info .social-media-icons a {
+	color: #fff;
+	margin: 0 5px;
+	font-size: 25px;
+}
+
+.brief-info .social-media-icons a:hover,
+.brief-info .social-media-icons a:active,
+.brief-info .social-media-icons a:focus {
+	color: #f9f871;
+}
+
+.alert-message {
+	display: inline-block;
+	padding: 15px 25px;
+	margin-top: 30px;
+	font-size: 22px;
+	color: #131313;
+	background: #fff;
+	opacity: 0.8;
+	text-transform: uppercase;
+}
+
+@media (max-width: 992px) {
+	.contact-section {
+		padding: 100px 50px;
+	}
+
+	.brief-info .logo {
+		width: 150px;
+	}
+}
+
+@media (max-width: 768px) {
+	.contact-section {
+		padding: 100px;
+	}
+
+	.contact-section .contact-info,
+	.contact-section .brief-info {
+		grid-column: 1 / -1;
+	}
+
+	.contact-section .brief-info {
+		margin-top: 100px;
+	}
+}
+
+@media (max-width: 576px) {
+	.contact-section {
+		padding: 100px 50px;
+	}
+
+	.contact-form .form-group {
+		grid-template-columns: 1fr;
+	}
+	.contact-form label {
+		padding: 10px;
+		margin-bottom: 25px;
 	}
 }
