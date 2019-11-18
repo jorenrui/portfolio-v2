@@ -6,6 +6,7 @@
  * - Blog Section
  * - Design Section
  * - Contact Section
+ * - Footer
  *============================ */
 
 /*============================
@@ -733,4 +734,13 @@
 		padding: 10px;
 		margin-bottom: 25px;
 	}
+}
+
+/*============================
+ * Footer
+ *============================ */
+
+.footer {
+	text-align: center;
+	margin: 5px 0;
 }
