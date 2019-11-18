@@ -2,7 +2,7 @@ import React from 'react';
 
 function WorkItem(props) {
 	let auth_credentials = null;
-	if (props.auth != '') {
+	if (props.auth !== '') {
 		auth_credentials = (
 			<div>
 				<h4 className="mt-1">Login Credentials (For Demo)</h4>
