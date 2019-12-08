@@ -26,14 +26,15 @@ function WorkItem(props) {
 				{auth_credentials}
 				<h4 className="mt-1">Technologies Used</h4>
 				<p>{props.techs}</p>
-				<a
-					target="_blank"
-					href={props.link}
-					rel="noopener noreferrer"
-					className="btn btn-md btn-primary"
-				>
-					VIEW DEMO
-				</a>
+				{ props.link !== '' ?
+					(<a
+						target="_blank"
+						href={props.link}
+						rel="noopener noreferrer"
+						className="btn btn-md btn-primary"
+					>
+						VIEW DEMO
+					</a>) : '' }
 				<a
 					target="_blank"
 					href={props.repo}

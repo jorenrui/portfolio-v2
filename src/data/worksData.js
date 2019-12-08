@@ -7,7 +7,7 @@ const worksData = [
     auth:
       'Login as Admin with username: admin, password: secret. As for the other users, their username and password are the same. Faculty: K005, Student: 041930001, Registrar: K003, Head registrar: K002',
     techs: 'Boostrap, jQuery, Laravel, etc.',
-    link: 'https://spcc.tech',
+    link: '',
     image: 'spcc-portal.png',
     repo: 'https://github.com/jorenrui/spccweb'
   },
@@ -18,7 +18,7 @@ const worksData = [
       'A personal portfolio built as a way to learn and master ReactJS. Developed the design using Figma, developed the layout using Flexbox and CSS Grid, and used ReactJS. I also plan to write some case studies about my projects by Jan 2020, so stay tuned.',
     auth: '',
     techs: 'React',
-    link: 'https://jorenrui.netlify.com',
+    link: '',
     image: 'react-portfolio.png',
     repo: 'https://github.com/jorenrui/portfolio'
   }
