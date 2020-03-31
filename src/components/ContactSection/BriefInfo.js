@@ -12,9 +12,7 @@ function BriefInfo() {
             <h3 className="name">Joeylene Rivera</h3>
             <p className="title text-muted">Web Developer</p>
             <p>
-                I'm 21 years old and currently living in the Manila, Philippines. I’m a 4th year
-                BSIT Student. Currently, I'm a Web Developer Intern and one semester away from
-                graduating.
+                I'm 22 years old and currently living in Manila, Philippines. I’m a Full Stack (JS) Developer and a BSIT student waiting for my graduation this 2020.
             </p>
             <SocialMedia />
         </div>

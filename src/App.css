@@ -671,6 +671,7 @@
 
 .brief-info {
 	text-align: center;
+	padding: 0 36px;
 }
 
 .brief-info .logo {
@@ -710,6 +711,7 @@
 }
 
 @media (max-width: 992px) {
+
 	.contact-section {
 		padding: 100px 50px;
 	}
@@ -731,6 +733,7 @@
 
 	.contact-section .brief-info {
 		margin-top: 100px;
+		padding: 0;
 	}
 }
 

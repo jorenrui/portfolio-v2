@@ -24,8 +24,7 @@ function BlogSection() {
 					</a>
 					, I write my blog posts there. Writing helps me understand
 					the concepts that I’m learning better, so I would like to
-					write more in the future. So stay tuned for my upcoming
-					posts on January 2020.
+					write more in the future.
 				</p>
 			</div>
 			{articleItems}

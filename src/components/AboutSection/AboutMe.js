@@ -21,7 +21,6 @@ function AboutMe() {
           Ever since I started working as a Web Developer Intern during the summer of 2017 and
           discovered the open-source, I got hooked in web development. Starting in November 2017, I
           started to get serious in learning the tech, starting with receiving the{' '}
-          <span className='highlight-hover'></span>
           <a
             target='_blank'
             href='https://www.freecodecamp.org/certification/merakireal/legacy-front-end'
@@ -33,9 +32,7 @@ function AboutMe() {
           .
         </p>
         <p>
-          Now I'm currently completing my Web Developer internship here in the Philippines and I'm
-          one semester away from graduating this 2020 as an{' '}
-          <span className='highlight-hover'>Information Technology major</span>
+          Now I decided to transition from PHP to JS and I'm currently working as a <span className='highlight-hover'>Full Stack Developer</span> in the Philippines. Tho I'm still waiting for my graduation this 2020 as an <span className='highlight-hover'>Information Technology major</span>
         </p>
       </div>
       <div className='title'>
