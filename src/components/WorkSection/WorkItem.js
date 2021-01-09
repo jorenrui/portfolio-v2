@@ -16,7 +16,7 @@ function WorkItem(props) {
       <div className='image'>
         <img
           src={process.env.PUBLIC_URL + '/img/works/' + props.image}
-          alt='SPCC Caloocan Portal Website'
+          alt={props.title}
           className={props.className}
         />
       </div>
@@ -27,21 +27,21 @@ function WorkItem(props) {
         {auth_credentials}
         <h4 className='mt-1'>Technologies Used</h4>
         <p>{props.techs}</p>
-        {props.link !== '' ? (
+        {props.link !== '' && (
           <a
             target='_blank'
             href={props.link}
             rel='noopener noreferrer'
             className='btn btn-md btn-primary'
           >
-            VIEW DEMO
+            {props.isDemo ? 'VIEW DEMO' : 'VIEW APP'}
           </a>
-        ) : (
-          ''
         )}
-        <a target='_blank' href={props.repo} rel='noopener noreferrer' className='btn btn-md'>
-          VIEW REPO
-        </a>
+        {props.repo && (
+          <a target='_blank' href={props.repo} rel='noopener noreferrer' className='btn btn-md'>
+            VIEW REPO
+          </a>
+        )}
       </div>
     </div>
   );
