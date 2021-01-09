@@ -10,9 +10,9 @@ function BriefInfo() {
                 className="logo"
             />
             <h3 className="name">Joeylene Rivera</h3>
-            <p className="title text-muted">Web Developer</p>
+            <p className="title text-muted">Full Stack Developer</p>
             <p>
-                I'm 22 years old and currently living in Manila, Philippines. I’m a Full Stack (JS) Developer and a BSIT student waiting for my graduation this 2020.
+                I'm 22 years old and currently living in Manila, Philippines. I’m a Full Stack (JS) Developer that has NextJS, TypeScript, NodeJS and Rails under my toolbelt.
             </p>
             <SocialMedia />
         </div>

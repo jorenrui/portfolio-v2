@@ -34,7 +34,7 @@ function Skills() {
           <h3 className='list-title'>Core</h3>
           <ul>
             <li>
-              <span>HTML5 & CSS3</span>
+              <span>Rails</span>
             </li>
             <li>
               <span>JavaScript</span>
@@ -46,7 +46,7 @@ function Skills() {
               <span>ReactJS</span>
             </li>
             <li>
-              <span>MySQL</span>
+              <span>PostgreSQL</span>
             </li>
             <li>
               <span>Responsive Design</span>
