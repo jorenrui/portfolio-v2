@@ -1,11 +1,11 @@
 const articlesData = [
   {
     id: 1,
-    title: 'My 2019 in Review',
+    title: 'A Look into How I Manage My Personal Projects (My Git/GitHub Workflow)',
     description:
-      "In this post, I'm going to share what I've been doing organizing them by months. Time to look back and wrapped up my year!...",
-    published_at: 'DEC 31, 2019',
-    link: 'https://dev.to/jorenrui/my-2019-in-review-24ig'
+      "I'll discuss how I create and manage my projects using Git/GitHub. Also, I'll be tackling how I use GitHub's project boards, issues, and pull requests...",
+    published_at: 'MAY 15, 2020',
+    link: 'https://dev.to/jorenrui/a-look-into-how-i-manage-my-personal-projects-my-git-github-workflow-1e7h'
   },
   {
     id: 2,
