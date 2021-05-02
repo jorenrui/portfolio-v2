@@ -46,7 +46,27 @@ function AboutMe() {
           By 2020, I decided to transition from PHP to JS and I'm currently working as a <span className='highlight-hover'>Full Stack Developer</span> in the Philippines. Ah I've also graduated as an <span className='highlight-hover'>Information Technology major</span> on 2020.
         </p>
         <p>
-          As for 2021, I'm currently focus on my side projects and learning more about GraphQL and Rails.
+          As for 2021, a lot of stuff has happened. I moved out, got my second job as in an early-stage startup then built some side projects. One of the side projects that I've built is my personal ReactJS component UI library called
+          {' '}
+          <a
+            target='_blank'
+            href='https://github.com/jorenrui/minorui'
+            rel='noopener noreferrer'
+            className='text-link-primary'
+          >
+            Minorui
+          </a>
+          . I've also built
+          {' '}
+          <a
+            target='_blank'
+            href='https://sutle.io'
+            rel='noopener noreferrer'
+            className='text-link-primary'
+          >
+            Sutle
+          </a>
+          , a side project that got featured on Product Hunt on May 1, 2021.
         </p>
       </div>
       <div className='title'>
