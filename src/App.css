@@ -125,6 +125,12 @@
 	background-color: #131313;
 }
 
+.hero-section .content .personal-link {
+	display: block;
+	color: #fff;
+	font-size: 14px;
+}
+
 .hero-section .cta {
 	z-index: 10;
 }

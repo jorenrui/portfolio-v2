@@ -12,6 +12,14 @@ function CTA() {
 				<a href="#contact" className="btn btn-lg">
 					contact me
 				</a>
+				<a
+					target="_blank"
+					href="https://jorenrui.notion.site"
+					rel="noopener noreferrer"
+					className="personal-link"
+				>
+					Get to know me personally.
+				</a>
 			</div>
 
 			<div className="bg">
