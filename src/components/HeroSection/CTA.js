@@ -14,11 +14,11 @@ function CTA() {
 				</a>
 				<a
 					target="_blank"
-					href="https://jorenrui.notion.site"
+					href="https://joeylene.com"
 					rel="noopener noreferrer"
 					className="personal-link"
 				>
-					Get to know me personally.
+					View latest version of portfolio.
 				</a>
 			</div>
 

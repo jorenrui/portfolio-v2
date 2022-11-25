@@ -6,5 +6,6 @@ My portfolio website built with ReactJS. It shows my recent works, blogs I've wr
 
 ## Versions
 
--   2.0 The current portfolio. Developed on Nov 2019. [Repository](https://github.com/jorenrui/portfolio)
+-   3.0 [https://joeylene.com/](https://joeylene.com/). The current portfolio. Developed on November 2022.
+-   2.0 This repository. Developed on Nov 2019. [Repository](https://github.com/jorenrui/portfolio)
 -   1.0 [jorenrui.github.io](https://jorenrui.github.io). Developed on Dec 2017. [Repository](https://github.com/jorenrui/jorenrui.github.io)
